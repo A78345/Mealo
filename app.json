@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "订餐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "美食",
+        "iconPath": "/image/foods.png",
+        "selectedIconPath": "/image/foods_hl.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "订单",
+        "iconPath": "/image/list.png",
+        "selectedIconPath": "/image/list_hl.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "/image/account.png",
+        "selectedIconPath": "/image/account_hl.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
